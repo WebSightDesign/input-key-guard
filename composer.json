@@ -2,7 +2,7 @@
     "name": "wsd/input-key-guard",
     "description": "Mitigates GHSA-8h64-cpq2-9h2g (quadratic key-prefix building in TransformsRequest) on Laravel 9/10/11 apps that cannot be upgraded yet.",
     "type": "library",
-    "license": "proprietary",
+    "license": "MIT",
     "require": {
         "php": "^8.0",
         "illuminate/http": "^9.0|^10.0|^11.0|^12.0",
