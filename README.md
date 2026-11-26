@@ -29,3 +29,7 @@ Upgrade to Laravel >= 12.74 or >= 13.38 (which contain the upstream fix), then `
 ## Installing on old Laravel with Composer 2.11
 
 Composer's "block insecure" audit refuses to resolve advisory-affected `laravel/framework` releases. Client apps still on 9/10 may need `"config": {"audit": {"block-insecure": false}}` in their own composer.json; this package's `config` does not apply to dependents.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
